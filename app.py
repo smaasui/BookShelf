@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ShelfWise", layout="centered", initial_sidebar_state="expanded", page_icon="📚")
+st.set_page_config(page_title="Book Log", layout="centered", initial_sidebar_state="expanded", page_icon="📚")
 
 # Initialize session state
 if 'library' not in st.session_state:
@@ -285,7 +285,7 @@ elif sidebar_option == "About Me":
     st.link_button("🔗 Stay connected on LinkedIn!", "https://www.linkedin.com/in/smaasui/")
 
 elif sidebar_option == "Library Records":
-    st.markdown("# ShelfWise")
+    st.markdown("# Book Log")
 
     tab1, tab2, tab3 = st.tabs(["➕ Add Record", "✏️ Edit/Delete Record", "📋 View Records"])
 
