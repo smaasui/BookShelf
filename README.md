@@ -1,7 +1,7 @@
 # 
-# 📚 BookShelf – Your Personal Library Manager
+# 📚 Book Log – Your Personal Library Manager
 
-Welcome to **BiblioNest**, a beautiful and intuitive personal library management app built with **Streamlit**!  
+Welcome to **Book Log**, a beautiful and intuitive personal library management app built with **Streamlit**!  
 Easily organize, track, and manage your book collection with features like borrowing, returning, filtering, and more.
 
 ---
